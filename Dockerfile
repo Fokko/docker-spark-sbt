@@ -9,6 +9,4 @@ RUN wget -O ./bin/sbt https://raw.githubusercontent.com/paulp/sbt-extras/master/
   && chmod 0755 ./bin/sbt \
   && ./bin/sbt -v -211 -sbt-create about
 
-RUN sbt
-
 CMD sbt
