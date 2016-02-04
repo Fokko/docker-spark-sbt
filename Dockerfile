@@ -1,5 +1,5 @@
 FROM catawiki/docker-spark
-MAINTAINER Fokko Driesprong <fokko@catawiki.nl>
+MAINTAINER Fokko Driesprong <f.driesprong@catawiki.nl>
 
 RUN mkdir /tmp/ \
   && chmod 777 /tmp/ \
